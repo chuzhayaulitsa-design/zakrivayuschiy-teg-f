@@ -1,1 +1,34 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font-family: "Inter-Variable", sans-serif;
+  --accent-font-family: "PressStart2P", fantasy;
+  --main-title-weight: 785;
+  --main-text-weight: 400;
+  --accent-title-font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
+  --accent-subtitle-font-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
+  --main-font-size: 18px;
+  --button-font-size: 14px;
+  --text-stroke-color: #fff;
+  --text-color-hover: #fff;
+
+  --card-page-width: clamp(23.4375rem, calc(16.2852rem + 30.5164vw), 43.75rem);
+  --card-header-padding-block: clamp(20.4375rem, 19.2727rem + 4.9697vw, 23rem);
+
+  --background-gradient:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0 2px,
+      rgba(0 0 0 / 0) 2px 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  --accent-color: #000;
+  --card-bg-color: #fff;
+  --bg-button-hover: #000;
+  --color-img-hover: #fff;
+
+  --contur-color: #000;
+  --body-sparks-active: #ff0000;
+}
